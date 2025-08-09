@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="page-load">
+  <div class="portfolio-badge">🎖️ Portfolio</div>
+
+  <header class="header-container">
+  <div class="header-text">
+    <div class="header-box">
+    <h1>Hi, I'm Aakash Sharma</h1>
+    <p>Frontend Developer & CSE Student</p>
+    </div>
+    </div>
+    <div class="profile">
+     <img src="https://media.licdn.com/dms/image/v2/D4E03AQF1AgswuIbSHw/profile-displayphoto-scale_400_400/B4EZhsOtZ7GYAk-/0/1754162453495?e=1756944000&v=beta&t=itQjanvbTLd8eA86q940PTFfsFIGVHjxFwJPgC8BUak" alt="Flowers in Chania" width="100px" >
+     <div class="social-links">
+  <a href="https://www.linkedin.com/in/aakash-sharma-882079330" target="_blank" class="fab fa-linkedin-in"></a>
+  <a href="https://www.instagram.com/aakash__panditt/" target="_blank" class="fab fa-instagram"></a>
+  <a href="https://github.com/Aakashsharmax" target="_blank" class="fab fa-github"></a>
+</div>
+    </div>
+  </header>
+
+  <section id="about"  class="reveal">
+    <h2>About Me</h2>
+    <div class="about-card">
+    <p>🚀 Aspiring Web Developer & Data Scientist | B.Tech CSE 💻 Passionate about turning code into impactful digital experiences 🎯 Student Leader | Team Player | Tech Enthusiast</p>
+    </div>
+  </section>
+    
+   
+  <section id="skills"  class="reveal">
+    <h2>Skills</h2>
+    <div class="skill-card">
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    </div>
+  </section>
+
+  <section id="projects"  class="reveal">
+    <h2>Projects</h2>
+   <div class="project-card">
+  <h3>📱 MyBlog Web App</h3>
+  <p>A responsive blog platform with user login and comment system.</p>
+    </div>
+    <!-- Add more project cards -->
+  </section>
+
+  <section id="contact"  class="reveal">
+    <h2>Contact Me</h2>
+   <form action="save_contact.php" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required/>
+  <input type="email" name="email" placeholder="Your Email" required/>
+  <textarea name="message" placeholder="Your Message"></textarea>
+  <center>
+    <button type="submit">Send</button>
+  </center>
+</form>
+  </section>
+
+  <footer>
+    <p>© 2025 Aakash Sharma</p>
+  </footer>
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="back-to-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
